@@ -1,12 +1,14 @@
 Package: ActCR
 Type: Package
 Title: Extract Circadian Rhythms Metrics from 'Actigraphy' Data
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(
     person(given = "Junrui", family = "Di", 
         role = c("aut", "cre"), email = "dijunrui@gmail.com"),
-    person(given = "Vadim", family = "zipunnikov", 
-        role = c("aut"), email = "vadim.zipunnikov@gmail.com")
+    person(given = "Vadim", family = "Zipunnikov", 
+        role = c("aut"), email = "vadim.zipunnikov@gmail.com"),
+    person(given = "John", family = "Muschelli", 
+        role = c("ctb"), email = "muschellij2@gmail.com")
       )
 Description: Circadian rhythms are rhythms that oscillate about every 24 hours, 
   which has been observed in multiple physiological processes including 
