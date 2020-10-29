@@ -13,8 +13,8 @@ IV(x)
 IV
 }
 \description{
-This function calcualte intradaily variability, a nonparametric metric
-reprsenting fragmentation of circadian rhtymicity
+This function calculate intradaily variability, a nonparametric metric
+representing fragmentation of circadian rhythmicity
 }
 \examples{
 data(example_activity_data)

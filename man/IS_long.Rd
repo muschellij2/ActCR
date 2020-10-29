@@ -2,7 +2,7 @@
 % Please edit documentation in R/IS_long.R
 \name{IS_long}
 \alias{IS_long}
-\title{Interdaily Statbility for the Whole Dataset}
+\title{Interdaily Stability for the Whole Dataset}
 \usage{
 IS_long(count.data, window = 1, method = c("average", "sum"))
 }
@@ -11,7 +11,7 @@ IS_long(count.data, window = 1, method = c("average", "sum"))
 1440 dimensional activity data for all n subject days.
 The first two columns have to be ID and Day. ID can be
 either \code{character} or \code{numeric}. Day has to be \code{numeric} indicating
-the sequency of days within each subject.}
+the sequence of days within each subject.}
 
 \item{window}{an \code{integer} indicating what is the window to bin the data before
 the function can be apply to the dataset. For details, see \code{bin_data}.}
@@ -24,8 +24,8 @@ A \code{data.frame} with the following 2 columns
 \item{IS}{IS}
 }
 \description{
-This function calcualte interdaily stability, a nonparametric metric
-of circadian rhtymicity. This function is a whole dataset
+This function calculate interdaily stability, a nonparametric metric
+of circadian rhythmicity. This function is a whole dataset
 wrapper for \code{IS}
 }
 \examples{

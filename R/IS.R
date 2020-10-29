@@ -1,6 +1,6 @@
-#' @title Interdaily Statbility
-#' @description This function calcualte interdaily stability, a nonparametric metric
-#' of circadian rhtymicity
+#' @title Interdaily Stability
+#' @description This function calculate interdaily stability, a nonparametric metric
+#' of circadian rhythmicity
 #'
 #' @param x  \code{data.frame} of dimension ndays by p, where p is the dimension of the data.
 #'

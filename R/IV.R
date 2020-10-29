@@ -1,6 +1,6 @@
 #' @title Intradaily Variability
-#' @description This function calcualte intradaily variability, a nonparametric metric
-#' reprsenting fragmentation of circadian rhtymicity
+#' @description This function calculate intradaily variability, a nonparametric metric
+#' representing fragmentation of circadian rhythmicity
 #'
 #' @param x  \code{vector} of activity data
 #' @return IV

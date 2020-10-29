@@ -1,13 +1,13 @@
 #' @title Intradaily Variability for the Whole Dataset
-#' @description This function calcualte intradaily variability, a nonparametric metric
-#' reprsenting fragmentation of circadian rhtymicity. This function is a whole dataset
+#' @description This function calculate intradaily variability, a nonparametric metric
+#' representing fragmentation of circadian rhythmicity. This function is a whole dataset
 #' wrapper for \code{IV}.
 #'
 #' @param count.data \code{data.frame} of dimension n * (1440+2) containing the
 #' 1440 dimensional activity data for all n subject days.
 #' The first two columns have to be ID and Day. ID can be
 #' either \code{character} or \code{numeric}. Day has to be \code{numeric} indicating
-#' the sequency of days within each subject.
+#' the sequence of days within each subject.
 #' @param  window an \code{integer} indicating what is the window to bin the data before
 #' the function can be apply to the dataset. For details, see \code{bin_data}.
 #' @param method \code{character} of "sum" or "average", function used to bin the data

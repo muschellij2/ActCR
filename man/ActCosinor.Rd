@@ -7,9 +7,9 @@
 ActCosinor(x, window = 1)
 }
 \arguments{
-\item{x}{\code{vector} vector of dimension n*1440 which reprsents n days of 1440 minute activity data}
+\item{x}{\code{vector} vector of dimension n*1440 which represents n days of 1440 minute activity data}
 
-\item{window}{The calcuation needs to understand what is the window size of the data}
+\item{window}{The calculation needs to understand what is the window size of the data}
 }
 \value{
 A list with elements

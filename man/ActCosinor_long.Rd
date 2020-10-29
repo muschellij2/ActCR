@@ -11,9 +11,9 @@ ActCosinor_long(count.data, window = 1)
 p dimensional activity data for all n subject days.
 The first two columns have to be ID and Day. ID can be
 either \code{character} or \code{numeric}. Day has to be \code{numeric} indicating
-the sequency of days within each subject.}
+the sequence of days within each subject.}
 
-\item{window}{since the caculation of M10 and L5 depends on the dimension of data, we need to include
+\item{window}{since the calculation of M10 and L5 depends on the dimension of data, we need to include
 window size as an argument.}
 }
 \value{

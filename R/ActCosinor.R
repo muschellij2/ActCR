@@ -2,8 +2,8 @@
 #' @description A parametric approach to study circadian rhythmicity assuming cosinor shape.
 #'
 #'
-#' @param x \code{vector} vector of dimension n*1440 which reprsents n days of 1440 minute activity data
-#' @param window The calcuation needs to understand what is the window size of the data
+#' @param x \code{vector} vector of dimension n*1440 which represents n days of 1440 minute activity data
+#' @param window The calculation needs to understand what is the window size of the data
 #'
 #'
 #' @importFrom cosinor cosinor.lm

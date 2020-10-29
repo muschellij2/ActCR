@@ -9,7 +9,7 @@ RA(x, window = 1, method = c("average", "sum"))
 \arguments{
 \item{x}{\code{vector} vector of activity data}
 
-\item{window}{since the caculation of M10 and L5 depends on the dimension of data, we need to include
+\item{window}{since the calculation of M10 and L5 depends on the dimension of data, we need to include
 window size as an argument.}
 
 \item{method}{\code{character} of "sum" or "average", function used to bin the data}
@@ -18,8 +18,8 @@ window size as an argument.}
 RA
 }
 \description{
-This function calcualte relative amplitude, a nonparametric metric
-reprsenting fragmentation of circadian rhtymicity
+This function calculate relative amplitude, a nonparametric metric
+representing fragmentation of circadian rhythmicity
 }
 \examples{
 data(example_activity_data)

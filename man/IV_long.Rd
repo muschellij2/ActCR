@@ -11,7 +11,7 @@ IV_long(count.data, window = 1, method = c("average", "sum"))
 1440 dimensional activity data for all n subject days.
 The first two columns have to be ID and Day. ID can be
 either \code{character} or \code{numeric}. Day has to be \code{numeric} indicating
-the sequency of days within each subject.}
+the sequence of days within each subject.}
 
 \item{window}{an \code{integer} indicating what is the window to bin the data before
 the function can be apply to the dataset. For details, see \code{bin_data}.}
@@ -25,8 +25,8 @@ A \code{data.frame} with the following 5 columns
 \item{IV}{IV}
 }
 \description{
-This function calcualte intradaily variability, a nonparametric metric
-reprsenting fragmentation of circadian rhtymicity. This function is a whole dataset
+This function calculate intradaily variability, a nonparametric metric
+representing fragmentation of circadian rhythmicity. This function is a whole dataset
 wrapper for \code{IV}.
 }
 \examples{

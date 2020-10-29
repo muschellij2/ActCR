@@ -1,9 +1,9 @@
 #' @title Relative Amplitude
-#' @description This function calcualte relative amplitude, a nonparametric metric
-#' reprsenting fragmentation of circadian rhtymicity
+#' @description This function calculate relative amplitude, a nonparametric metric
+#' representing fragmentation of circadian rhythmicity
 #'
 #' @param x  \code{vector} vector of activity data
-#' @param window since the caculation of M10 and L5 depends on the dimension of data, we need to include
+#' @param window since the calculation of M10 and L5 depends on the dimension of data, we need to include
 #' window size as an argument.
 #' @param method \code{character} of "sum" or "average", function used to bin the data
 #'

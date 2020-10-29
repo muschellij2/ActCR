@@ -2,7 +2,7 @@
 % Please edit documentation in R/IS.R
 \name{IS}
 \alias{IS}
-\title{Interdaily Statbility}
+\title{Interdaily Stability}
 \usage{
 IS(x)
 }
@@ -10,8 +10,8 @@ IS(x)
 \item{x}{\code{data.frame} of dimension ndays by p, where p is the dimension of the data.}
 }
 \description{
-This function calcualte interdaily stability, a nonparametric metric
-of circadian rhtymicity
+This function calculate interdaily stability, a nonparametric metric
+of circadian rhythmicity
 }
 \examples{
 data(example_activity_data)
